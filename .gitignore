@@ -1,4 +1,8 @@
 DUNGEON
-DUNGEON.exe
+*.com
+*.class
+*.dll
+*.exe
 *.o
+*.so
 .DS_Store
