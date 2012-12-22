@@ -73,6 +73,136 @@ monster* MONSTERS[] = {
         "A Succubus fails to seduce you. She's now angered and ready to attack.",
         20, 69
     ),
+	_(
+        "Undead Champion",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Zombie",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Undead Assassin",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Undead Soldier",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Elite Undead Guard",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Undead Archer",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Infested Ghoul",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Undead Mage",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Giant Skeleton",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Ent",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Wyvern",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Mushroom Man",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Giant Leech",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Mimic",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Scale Soldier",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Scale Mage",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Rockworm",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Slime",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Stone Knight",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Giant",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Crystal Golem",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Royal Undead Knight",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Blowdart Sniper",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Wisp",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Banshee",
+        "Filler Arrival",
+        0, 01
+    ),
+	_(
+        "Silver Knight",
+        "Filler Arrival",
+        0, 01
+    ),
     NULL
 };
 
