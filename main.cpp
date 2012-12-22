@@ -8,6 +8,10 @@ void start() {
     player.weapon    = 0;
     player.num_items = 0;
 
+    int i = 0;
+    NUM_MONSTERS = 0;
+    while (MONSTERS[i++] != NULL) NUM_MONSTERS++;
+    
     printf("You awake in a dark dungeon cellar.\n");
     printf("You have been wrongly banished to a realm of despair.\n");
     printf("You know you must get past 10 different creatures of the realm of despair to escape.\n\n");
@@ -27,7 +31,7 @@ void end(bool won) {
 int count_monsters() {
     int total = 0;
     for (int i = 0; i < NUM_MONSTERS; i++)
-        total += MONSTERS[i].chance;
+        total += MONSTERS[i]->chance;
 
     return total;
 }
@@ -38,11 +42,11 @@ const monster* random_monster(int monster_total, const monster* last_monster) {
 
         int total = 0;
         for (int i = 0; i < NUM_MONSTERS; i++) {
-            total += MONSTERS[i].chance;
+            total += MONSTERS[i]->chance;
 
             if (total >= choice)
-                if (last_monster == NULL || strcmp(last_monster->name, MONSTERS[i].name))
-                    return &MONSTERS[i];
+                if (last_monster == NULL || strcmp(last_monster->name, MONSTERS[i]->name))
+                    return MONSTERS[i];
         }
     }
 }
