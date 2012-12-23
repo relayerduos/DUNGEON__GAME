@@ -164,7 +164,7 @@ monster* MONSTERS[] = {
         0, 01
     ),
 	_(
-        "Stone Knight",
+        "Cerberus",
         "Filler Arrival",
         0, 01
     ),
