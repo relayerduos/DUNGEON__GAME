@@ -26,6 +26,7 @@ OBJS := \
   monsters.$(OBJ_EXT) \
   items.$(OBJ_EXT)    \
   player.$(OBJ_EXT)   \
+  map.$(OBJ_EXT)   \
   main.$(OBJ_EXT)
 
 TARGET := DUNGEON$(EXE_EXT)
